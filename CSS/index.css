@@ -14,3 +14,52 @@ header{
     height: 20vh;
     border-radius: 10px;
 }
+/*CONTENIDO TEXTO*/
+.content{
+    height: 19vh;
+    grid-column: 1/2;
+    border-radius: 10px;
+    padding: 1.6em;
+    font-size: 1.4rem;
+}
+.main{
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.block1{
+    background-color: darkblue;
+
+    grid-row: 1/2;
+}
+.block2{
+    background-color: darkseagreen;
+
+    grid-row: 2/3;
+}
+.block3{
+    background-color: darkgoldenrod;
+
+    grid-row: 3/4;
+}
+.block4{
+    background-color: darkgreen;
+
+    grid-row: 4/5;
+}
+.block5{
+    background-color: darkred;
+
+    grid-row: 5/6;
+}
+.block6{
+    background-color: darkmagenta;
+    grid-row: 6/7
+}
+
+.oculto_pc{
+    display: none;
+}
