@@ -127,3 +127,31 @@ img{
         grid-row: 5/7;
     }
 }
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 1023px) {
+    header{
+        height: 15vh;
+    }
+
+    .main{
+        margin-top: 1.8em;
+        row-gap: 10px;
+    }
+    .content{
+        height: 10vh;
+        font-size: .66rem;
+    }
+
+    .block4, .block5, .block6{
+        display: initial;
+    }
+    .img_oculto_tablet{
+        display: none;
+    }
+    .img3{
+        display: initial;
+        grid-column: 2/4;
+        grid-row: 1/7;
+    }
+}
