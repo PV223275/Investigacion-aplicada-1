@@ -1,3 +1,7 @@
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -17,6 +21,14 @@ header{
     background-color: gray;
     height: 20vh;
     border-radius: 10px;
+    padding-top: 2rem;
+}
+
+header h1{
+    text-align: center;
+    font-size: 6em;
+    color: white;
+    font-family: "Playfair Display", serif;
 }
 /*CONTENIDO TEXTO*/
 .content{
@@ -25,12 +37,13 @@ header{
     border-radius: 10px;
     padding: 1.6em;
     font-size: 1.6em;
+    font-family: "Nunito", sans-serif;
 }
 .main{
     margin-top: 3em;
     display: grid;
     grid-template-columns: 4fr 4fr 4fr;
-    column-gap: 20px;
+    column-gap: 30px;
     row-gap: 30px;
 }
 
@@ -93,6 +106,10 @@ img{
 .img_oculto_pc{
     display: none;
 }
+/*Sombreado*/
+header, .content, img{
+    box-shadow: 5px 5px 20px;
+}
 
 /*Responsive*/
 
@@ -101,6 +118,11 @@ img{
     header{
         height: 10vh;
     }
+
+    header h1{
+        font-size: 3em;
+    }
+
     .main{
         margin-top: 2em;
         row-gap: 15px;
@@ -136,6 +158,11 @@ img{
 @media (min-width: 768px) and (max-width: 1023px) {
     header{
         height: 15vh;
+        padding-top: 2.5rem;
+    }
+
+    header h1{
+        font-size: 4.5em;
     }
 
     .main{
@@ -144,7 +171,7 @@ img{
     }
     .content{
         height: 10vh;
-        font-size: .66rem;
+        font-size: 0.75rem;
     }
 
     .block4, .block5, .block6{
@@ -159,3 +186,4 @@ img{
         grid-row: 1/7;
     }
 }
+
