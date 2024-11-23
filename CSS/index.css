@@ -35,32 +35,32 @@ header{
 }
 
 .block1{
-    background-color: darkblue;
+    background-color: #909497;
 
     grid-row: 1/2;
 }
 .block2{
-    background-color: darkseagreen;
+    background-color: #909497;
 
     grid-row: 2/3;
 }
 .block3{
-    background-color: darkgoldenrod;
+    background-color: #909497;
 
     grid-row: 3/4;
 }
 .block4{
-    background-color: darkgreen;
+    background-color: #909497;
 
     grid-row: 4/5;
 }
 .block5{
-    background-color: darkred;
+    background-color: #909497;
 
     grid-row: 5/6;
 }
 .block6{
-    background-color: darkmagenta;
+    background-color: #909497;
     grid-row: 6/7
 }
 
